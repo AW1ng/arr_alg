@@ -55,19 +55,3 @@ int main() {
 
 
 
-//int main() {
-//	int Value;
-//	std::vector<int> vec;
-//	
-//	for(; Value != -2;) {
-//		std::cin >> Value;
-//		vec.push_back(Value);
-//
-//		if(Value == -1) {
-//			std::sort(vec.begin(), vec.end());
-//			std::cout << vec[5];
-//		}	
-//	}
-//	
-//}
-	
