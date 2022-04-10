@@ -67,8 +67,3 @@ int main() {
 
 
 
-
-//		if(A[End] > Result) {
-////			std::cout << " " << A[End] << "\n";
-//			A[End--];
-//		}
