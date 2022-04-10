@@ -13,13 +13,11 @@ int main() {
 
 	
 	for(int i = 0; i < Len; i++) {
-		for(int j = i + 1; j < Len; j++) {
-			int temp = a[i] + a[j];
-			if(temp > max && a[i] != a[j] && temp != max) {
-				max = temp;
-				b[0] = i; b[1] = j + 1;
-			}	
-		}
+	    sum += a[i];
+	    ans = std::max(ans, sum);
+	    sum = std::max(sum, 0);
+	    if(a[i] == ans) b[0] = i; 
+	    b[1] = ans;	
 	}
 	
 	std::cout << b[0] <<' ' << b[1];
