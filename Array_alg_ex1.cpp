@@ -23,6 +23,5 @@ int main() {
 	}
 	
 	std::cout << b[0] <<' ' << b[1];
-	std::cout <<"\n" << max;
 	
 }
