@@ -3,9 +3,6 @@
 #include <algorithm>
 #include <cmath>
 
-void Inserion_sort() {
-	
-}
 
 int main() {
 	int a[] {-100, -50, -5, 1, 10, 15};
